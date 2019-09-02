@@ -23,8 +23,8 @@ requirements:
   run:
     - ruby
     - rb-commonmarker >=0.17.6,<0.18
-    - rb-jekyll-commonmark >=1,<2
-    - rb-rouge >=2,<3
+    - rb-jekyll-commonmark >=1.2,<2
+    - rb-rouge >=2,<4
 
 test:
   commands:
