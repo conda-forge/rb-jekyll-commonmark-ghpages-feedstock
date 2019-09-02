@@ -1,5 +1,5 @@
 {% set name = "jekyll-commonmark-ghpages" %}
-{% set version = "0.1.5" %}
+{% set version = "0.1.6" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 109ef9caec4e7966877af36359a542ab1611fd39224eba79db2dd9ecb9201414
+  sha256: e76e7609fd9aeb9c9556bd779caa48d22d9a0fc6fd83621484e08a1fe39917ae
 
 build:
   noarch: generic
